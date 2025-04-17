@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paraíso del Sabor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a Paraíso del Sabor</h1>
+    <button id="loginButton">Iniciar sesión con GitHub</button>
+  </header>
+  <main>
+    <section id="commentSection" style="display: none;">
+      <h2>Deja un comentario</h2>
+      <form id="commentForm">
+        <textarea id="comment" placeholder="Escribe tu comentario" required></textarea>
+        <button type="submit">Publicar</button>
+      </form>
+      <div id="commentsList"></div>
+    </section>
+    <section id="debugSection" style="display: none;">
+      <h2>Modo Debug</h2>
+      <textarea id="codeEditor" style="width: 100%; height: 300px;"></textarea>
+      <button id="saveButton">Guardar Cambios</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
